@@ -1,0 +1,40 @@
+p {
+    color: red;
+}
+
+h3 {
+    color: blue;
+}
+
+a {
+    background-color:green;
+}
+
+#parrafo3 {
+    color: green;
+}
+
+.parrafoGris {
+    color: gray;
+}
+
+.parrafoNegro {
+    color: black;
+}
+
+.textoAzul {
+    color: blue;
+}
+
+.fondoRojo {
+    background-color: red;
+}
+
+.fondoAmarillo {
+    background-color:yellow;
+}
+
+.textoGrandeNegrita {
+    font-size: x-large;
+    font-weight: bold;
+}
