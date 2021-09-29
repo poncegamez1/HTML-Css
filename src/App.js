@@ -1,15 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola, este es el título</title>
-    <link href="./styles/estilos.css"  rel="stylesheet"/>
-    <description>Esta es la descripción</description>
-</head>
-<body>
-    <header>
+import logo from './logo.svg';
+import './App.css';
+import borderCollie from "./media/FotoBC.jpeg";
+
+function App() {
+  return (
+    <div className="App">
+     <header>
         <h3>Esto es una lista ordenada:</h3>
         <ol>
             <li class="textoGris fondoRojo textoGrandeNegrita"> Elemento 1</li>
@@ -65,7 +61,7 @@
             </article>
             <img 
             class="imagenPequeña" 
-            src="./media/FotoBC.jpeg" alt="Foto de un Border Collie" />
+            src={borderCollie} alt="Foto de un Border Collie" />
             <img src="	https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Foto de Google" />
         </section>
         <section>
@@ -106,5 +102,8 @@
         <section>Tabla con la info</section>
     </main>
     <footer>Este es el footer de contacto</footer>
-</body>
-</html>
+    </div>
+  );
+}
+
+export default App;
